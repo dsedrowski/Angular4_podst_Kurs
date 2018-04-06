@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "Angular4 - Kurs"
+    "name": "cars-service"
   },
   "apps": [
     {
@@ -17,9 +17,9 @@
       "test": "test.ts",
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
-      "prefix": "cs",
+      "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.less"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
@@ -54,9 +54,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
-    "component": {
-      "spec": false
-    }
+    "styleExt": "less",
+    "component": {}
   }
 }
